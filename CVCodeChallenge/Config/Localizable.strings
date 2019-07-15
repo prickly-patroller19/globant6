@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  CVCodeChallenge
+*/
+
+"Title" = "CV";
+"ProfileTitle" = "My Profile";
+"ProfileName" = "Name:";
+"ProfileSurname" = "Surname:";
+"ProfileAge" = "Age:";
+"ProfileContact" = "Contact information";
+"ProfileEmail" = "Mail:";
+"ProfilePhone" = "Phone:";
+"ProfileWeb" = "Website:";
+"ProfileNationality" = "Nationality:";
+"ProfileNameTitle" = "Name";
+"JobsTitle" = "Former Jobs";
+"SkillsTitle" = "Skills";
+"SchoolTitle" = "Education";
+"MessageButton" = "OK";
+"MessageTitle" = "Error";
+"MessageContent" = "Problems with network. Try it again later";
+

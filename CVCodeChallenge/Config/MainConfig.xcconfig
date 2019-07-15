@@ -1,0 +1,7 @@
+//
+//  MainConfig.xcconfig
+//  CVCodeChallenge
+
+ROOT_SCHEME = https
+ROOT_HOST = gist.githubusercontent.com
+ROOT_PATH = /prickly-patroller19/b120ff3ca8539e5d292f5d075ce57311/raw/80e80cf3670a118ad539541ad78fe850a871004b/CVInfo

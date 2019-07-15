@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RK9-Zd-yVL">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="vMD-W1-u8x">
+            <objects>
+                <viewController id="RK9-Zd-yVL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UG2-Mf-sKp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-background" translatesAutoresizingMaskIntoConstraints="NO" id="lMO-Zq-bTm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Resume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJi-H3-V8H">
+                                <rect key="frame" x="137.5" y="434" width="139" height="28"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ricardo Isidro Ramírez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVb-bC-Z0k">
+                                <rect key="frame" x="71" y="478" width="272.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LVb-bC-Z0k" firstAttribute="top" secondItem="HJi-H3-V8H" secondAttribute="bottom" constant="16" id="3GG-cS-OfK"/>
+                            <constraint firstItem="lMO-Zq-bTm" firstAttribute="leading" secondItem="v9u-4A-8w2" secondAttribute="leading" id="7OO-9I-TC6"/>
+                            <constraint firstItem="lMO-Zq-bTm" firstAttribute="top" secondItem="UG2-Mf-sKp" secondAttribute="top" id="H0Q-GN-JOF"/>
+                            <constraint firstItem="lMO-Zq-bTm" firstAttribute="bottom" secondItem="v9u-4A-8w2" secondAttribute="bottom" id="JCB-1n-gpB"/>
+                            <constraint firstItem="lMO-Zq-bTm" firstAttribute="trailing" secondItem="v9u-4A-8w2" secondAttribute="trailing" id="RYj-19-kBO"/>
+                            <constraint firstItem="LVb-bC-Z0k" firstAttribute="centerX" secondItem="UG2-Mf-sKp" secondAttribute="centerX" id="a5Q-6k-d4t"/>
+                            <constraint firstItem="HJi-H3-V8H" firstAttribute="centerX" secondItem="UG2-Mf-sKp" secondAttribute="centerX" id="nAa-he-RJA"/>
+                            <constraint firstItem="HJi-H3-V8H" firstAttribute="centerY" secondItem="UG2-Mf-sKp" secondAttribute="centerY" id="zdi-8A-fCN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v9u-4A-8w2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gnd-8z-uG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130.43478260869566" y="243.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash-background" width="3648" height="5472"/>
+    </resources>
+</document>
